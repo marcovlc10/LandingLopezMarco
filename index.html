@@ -1,42 +1,49 @@
 <!DOCTYPE html>
-
-
 <html>
-    <head>
-        <meta charset=utf-8">
-        <title>Inicio</title>
-    </head>
-	
-	<body>
-	<h1 align="center">Bienvenido a mi sitio web</h1>
-	
-		<header>
-            <p><strong>Alumno:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>ID:</strong> 00000216671</p>
-			<p><strong>Nombre de la p&aacute;gina:</strong> Bienvenida</p>
-			</header>
-			<hr>
-			<nav>
-				<p><strong>Barra de navegaci&oacute;n</strong></p>
-				<a href="aficiones.html">Aficiones</a> |
-				<a href="contactame.html">Cont&aacute;ctame</a> |
-			</nav>
-		</header>
-		<hr>
-	
-	<p><img src="Imagenes\fotocredencialitson.png" alt="Foto credencial marco" width="150" align="left" border="1" hspace="10"/>
-		<strong>Nombre:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez<br />
-		<strong>Direcci&oacute;n:</strong> Calle Cocos, Colonia Las Palmas<br />
-		<strong>Tel&eacute;fono:</strong> 6871406676<br />
-		<strong>E-mail:</strong> marco_vlc10@hotmail<br />
-		<strong>Carrera y semestre que estudio:</strong> Estudio la carrera de Ingenier&iacute;a en Software en ITSON, actualmente en el octavo semestre<br />
-        </p>
-		<br clear="left" />
-	
-	
-	<hr>
-	<footer>
-		<p><strong>Diseñador:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez &nbsp; &nbsp; &nbsp; <strong>Direcci&oacute;n de contacto:</strong> marco_vlc10@hotmail.com</p>
-	</footer>
-	</body>
-	
+
+<head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <nav>
+            <div class="menu-btn">
+                <div class="line line--1"></div>
+                <div class="line line--2"></div>
+                <div class="line line--3"></div>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="aficiones.html">Aficiones</a>
+                <a href="contactame.html">Contáctame</a>
+            </div>
+            <script src="boton.js"></script>
+        </nav>
+        <div class="header">
+            <h1>Bienvenido a mi sitio web</h1>
+        </div>
+        <div class="main">
+            <img id="fotoCred" src="Imagenes\fotocredencialitson.png" alt="Foto credencial marco" />
+            <p>
+                <strong>Nombre:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez<br />
+                <strong>Direcci&oacute;n:</strong> Calle Cocos, Colonia Las Palmas<br />
+                <strong>Tel&eacute;fono:</strong> 6871406676<br />
+                <strong>E-mail:</strong> marco_vlc10@hotmail<br />
+                <strong>Carrera y semestre que estudio:</strong> Estudio la carrera de Ingenier&iacute;a en Software en
+                ITSON, actualmente en el séptimo semestre<br />
+            </p>
+        </div>
+        <div class="footer">
+            <strong>Diseñador:</strong> Marco Vinicio López Cázarez &nbsp; &nbsp; &nbsp; <br><br>
+            <strong>Dirección de contacto:</strong>
+            <a id="email" href="mailto://marco_vlc10@hotmail.com"> marco_vlc10@hotmail.com</a>
+        </div>
+    </div>
+</body>
+
 </html>
