@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset=utf-8">
+        <title>Cont&aacute;ctame</title>
+    </head>
+	
+	<body>
+	<h1 align="center">Formulario de contacto</h1>
+	
+		<header>
+            <p><strong>Alumno:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>ID:</strong> 00000216671</p>
+			<p><strong>Nombre de la p&aacute;gina:</strong> Formulario de contacto</p>
+			</header>
+			<hr>
+			<nav>
+				<p><strong>Barra de navegaci&oacute;n</strong></p>
+				<a href="index.html">Inicio</a> |
+				<a href="aficiones.html">Aficiones</a> |
+			</nav>
+		</header>
+		
+		<form action ="mailto: marco_vlc10@hotmail.com?subject=A4 Formulario de contacto HTML"
+              method="post" enctype="text/plain">
+
+            <h1 align ="left"><font size="4">¡Cont&aacute;ctame!</h1>	
+            <p align="left"><strong>Introduzca sus datos</strong></p>
+			
+			
+            <label for="nombreUsuario">Nombre: </label>
+            <input type="text" id="nombreUsuario" name="nombre" size=40 maxlenght=45 required /> &nbsp;&nbsp;&nbsp;
+			
+            <label for="emailUsuario" >E-mail: </label>
+            <input type="email" id="emailUsuario" name="email" size=50 required/>
+			<br/><br/>
+			
+			<legend>Sexo:</legend>
+                <input type="radio" id="m" name="sexo" value="Masculino" required/>
+                <label for="m" >Masculino</label>
+                &nbsp;
+                <input type="radio" id="f" name="sexo" value="Femenino" />
+                <label for="f" >Femenino</label>
+                &nbsp;
+                <input type="radio" id="t" name="sexo" value ="Tractor" />
+                <label for="t" >Tractor 8 cilindros no binario 463 revoluciones/m</label>          
+				&nbsp;
+				<input type="radio" id="o" name="sexo" value ="Otro" />
+                <label for="o" >Otro</label>
+			<br/><br/>
+			
+			<label>Estado donde reside: </label>
+				  <select name="estados">
+					  <option value="otro">Otro</option>
+					  <option value="Aguascalientes">Aguascalientes</option>
+					  <option value="Baja California">Baja California</option>
+					  <option value="Baja California Sur">Baja California Sur</option>
+					  <option value="Campeche">Campeche</option>
+					  <option value="Chiapas">Chiapas</option>
+					  <option value="Chihuahua">Chihuahua</option>
+					  <option value="CDMX">Ciudad de México</option>
+					  <option value="Coahuila">Coahuila</option>
+					  <option value="Colima">Colima</option>
+					  <option value="Durango">Durango</option>
+					  <option value="Estado de México">Estado de México</option>
+					  <option value="Guanajuato">Guanajuato</option>
+					  <option value="Guerrero">Guerrero</option>
+					  <option value="Hidalgo">Hidalgo</option>
+					  <option value="Jalisco">Jalisco</option>
+					  <option value="Michoacán">Michoacán</option>
+					  <option value="Morelos">Morelos</option>
+					  <option value="Nayarit">Nayarit</option>
+					  <option value="Nuevo León">Nuevo León</option>
+					  <option value="Oaxaca">Oaxaca</option>
+					  <option value="Puebla">Puebla</option>
+					  <option value="Querétaro">Querétaro</option>
+					  <option value="Quintana Roo">Quintana Roo</option>
+					  <option value="San Luis Potosí">San Luis Potosí</option>
+					  <option value="Sinaloa">Sinaloa</option>
+					  <option value="Sonora">Sonora</option>
+					  <option value="Tabasco">Tabasco</option>
+					  <option value="Tamaulipas">Tamaulipas</option>
+					  <option value="Tlaxcala">Tlaxcala</option>
+					  <option value="Veracruz">Veracruz</option>
+					  <option value="Yucatán">Yucatán</option>
+					  <option value="Zacatecas">Zacatecas</option>
+				  </select>
+			
+			<br/><br/>
+			
+			<legend>Comentarios:</legend>
+                <textarea name="comentarios" rows="10" cols="60"></textarea>
+			
+			<br/><br/>
+			<div >
+                <input type="submit" name="boton" value="Enviar" />        
+                <input type="reset" value="Borrar" />
+            </div>
+        </form>
+		
+    </body>
+	
+</html>
