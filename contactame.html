@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Contacto</title>
+    <title>Contact</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
@@ -18,38 +18,38 @@
                 <div class="line line--3"></div>
             </div>
             <div class="nav-links">
-                <a href="index.html">Inicio</a>
-                <a href="aficiones.html">Aficiones</a>
-                <a href="contactame.html">Contáctame</a>
+                <a href="index.html">Home</a>
+                <a href="aficiones.html">Hobbies and interests</a>
+                <a href="contactame.html">Contact me</a>
             </div>
             <script src="boton.js"></script>
         </nav>
         <div class="header">
-            <h1>Formulario de contacto</h1>
+            <h1>Contact Form</h1>
         </div>
         <div class="main">
             <form action="mailto: marco_vlc10@hotmail.com?subject=A5 Formulario de contacto HTML y CSS" method=post enctype="text/plain">
-				<h2>¡Cont&aacute;ctame!</h1>
-						<h3>Introduzca sus datos</h3>
-						<label for="nombreId">Nombre*&nbsp;</label>
+				<h2>Contact me!</h1>
+						<h3>Insert your information</h3>
+						<label for="nombreId">Name*&nbsp;</label>
 						<input type="text" id="nombreId" name="nombre" size="30" maxlength=40 required />
 						<label for="emailId">E-mail*&nbsp;</label>
 						<input type="text" id="emailId" name="email" size="30" maxlength=32 required />
-						<h3>Sexo:</h3>
+						<h3>Gender:</h3>
 						<input type="radio" id="m" name="sexo" value="Masculino" />
-						<label for="m">Masculino</label>
+						<label for="m">Male</label>
 						<input type="radio" id="f" name="sexo" value="Femenino" />
-						<label for="f">Femenino</label>
+						<label for="f">Female</label>
 						<input type="radio" id="t" name="sexo" value="Tractor" />
-						<label for="t">Tractor 8 cilindros no binario 463 revoluciones/m</label>
+						<label for="t">Tractor 8 cylinders non binary 463 revolutions/m</label>
 						<input type="radio" id="o" name="sexo" value="Otro" />
-						<label for="o">Otro</label>
-						<h3>Seleccione el estado donde reside:</h3>
+						<label for="o">Other</label>
+						<h3>Select the state where you live:</h3>
 						<input type="hidden" name="residencia" value="lugarResi" />
 
 						<div>
 							<select name="estados">
-								<option disabled selected>Seleccione un estado</option>
+								<option disabled selected>Select your state</option>
 								<option value="Aguascalientes">Aguascalientes</option>
 								<option value="Baja California">Baja California</option>
 								<option value="Baja California Sur">Baja California Sur</option>
@@ -86,134 +86,23 @@
 						</div>
 						
 					<div>
-						<h3>Comentarios:</h3>
+						<h3>Comments:</h3>
 						<textarea id="txtAreaCom" name="comentario" rows="10" cols="80"></textarea>
 					</div>
 					<div>
-						<input type="submit" name="enviar" value="Enviar" />
-						<input type="reset" name="borrar" value="Borrar" />
+						<input type="submit" name="enviar" value="Send" />
+						<input type="reset" name="borrar" value="Remove" />
 					</div>
 					
 			</form>
 			<br><br><br>
         </div>
         <div class="footer">
-            <strong>Diseñador:</strong> Marco Vinicio López Cázarez &nbsp; &nbsp; &nbsp; <br><br>
-            <strong>Dirección de contacto:</strong>
+            <strong>Designer:</strong> Marco Vinicio López Cázarez &nbsp; &nbsp; &nbsp; <br><br>
+            <strong>E-mail contact:</strong>
             <a id="email" href="mailto://marco_vlc10@hotmail.com"> marco_vlc10@hotmail.com</a>
         </div>
     </div>
 </body>
 
 </html>
-
-
-<!-- <!DOCTYPE html>
-<html>
-
-    <head>
-        <meta charset=utf-8">
-        <title>Cont&aacute;ctame</title>
-    </head>
-	
-	<body>
-		<h1 align="center">Formulario de contacto</h1>
-	
-		<header>
-            <p><strong>Alumno:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>ID:</strong> 00000216671</p>
-			<p><strong>Nombre de la p&aacute;gina:</strong> Formulario de contacto</p>
-			</header>
-			<hr>
-			<nav>
-				<p><strong>Barra de navegaci&oacute;n</strong></p>
-				<a href="index.html">Inicio</a> |
-				<a href="horario.html">Horario</a> |
-				<a href="aficiones.html">Aficiones</a> |
-				<a href="descripcion.html">Descripci&oacute;n</a> |
-			</nav>
-		</header>
-		<hr>
-		
-		<form action ="mailto: marco_vlc10@hotmail.com?subject=A4 Formulario de contacto HTML"
-              method="post" enctype="text/plain">
-
-            <h1 align ="left"><font size="4">¡Cont&aacute;ctame!</h1>	
-            <p align="left"><strong>Introduzca sus datos</strong></p>
-			
-			
-            <label for="nombreUsuario">Nombre: </label>
-            <input type="text" id="nombreUsuario" name="nombre" size=40 maxlenght=45 required /> &nbsp;&nbsp;&nbsp;
-			
-            <label for="emailUsuario" >E-mail: </label>
-            <input type="email" id="emailUsuario" name="email" size=50 required/>
-			<br/><br/>
-			
-			<legend>Sexo:</legend>
-                <input type="radio" id="m" name="sexo" value="Masculino" required/>
-                <label for="m" >Masculino</label>
-                &nbsp;
-                <input type="radio" id="f" name="sexo" value="Femenino" />
-                <label for="f" >Femenino</label>
-                &nbsp;
-                <input type="radio" id="t" name="sexo" value ="Tractor" />
-                <label for="t" >Tractor 8 cilindros no binario 463 revoluciones/m</label>          
-				&nbsp;
-				<input type="radio" id="o" name="sexo" value ="Otro" />
-                <label for="o" >Otro</label>
-			<br/><br/>
-			
-			<label>Estado donde reside: </label>
-				  <select name="estados">
-					  <option value="otro">Otro</option>
-					  <option value="Aguascalientes">Aguascalientes</option>
-					  <option value="Baja California">Baja California</option>
-					  <option value="Baja California Sur">Baja California Sur</option>
-					  <option value="Campeche">Campeche</option>
-					  <option value="Chiapas">Chiapas</option>
-					  <option value="Chihuahua">Chihuahua</option>
-					  <option value="CDMX">Ciudad de México</option>
-					  <option value="Coahuila">Coahuila</option>
-					  <option value="Colima">Colima</option>
-					  <option value="Durango">Durango</option>
-					  <option value="Estado de México">Estado de México</option>
-					  <option value="Guanajuato">Guanajuato</option>
-					  <option value="Guerrero">Guerrero</option>
-					  <option value="Hidalgo">Hidalgo</option>
-					  <option value="Jalisco">Jalisco</option>
-					  <option value="Michoacán">Michoacán</option>
-					  <option value="Morelos">Morelos</option>
-					  <option value="Nayarit">Nayarit</option>
-					  <option value="Nuevo León">Nuevo León</option>
-					  <option value="Oaxaca">Oaxaca</option>
-					  <option value="Puebla">Puebla</option>
-					  <option value="Querétaro">Querétaro</option>
-					  <option value="Quintana Roo">Quintana Roo</option>
-					  <option value="San Luis Potosí">San Luis Potosí</option>
-					  <option value="Sinaloa">Sinaloa</option>
-					  <option value="Sonora">Sonora</option>
-					  <option value="Tabasco">Tabasco</option>
-					  <option value="Tamaulipas">Tamaulipas</option>
-					  <option value="Tlaxcala">Tlaxcala</option>
-					  <option value="Veracruz">Veracruz</option>
-					  <option value="Yucatán">Yucatán</option>
-					  <option value="Zacatecas">Zacatecas</option>
-				  </select>
-			
-			<br/><br/>
-			
-			<legend>Comentarios:</legend>
-                <textarea name="comentarios" rows="10" cols="60"></textarea>
-			
-			<br/><br/>
-			<div >
-                <input type="submit" name="boton" value="Enviar" />        
-                <input type="reset" value="Borrar" />
-            </div>
-        </form>
-		<br><br><br><hr>
-		<footer style="text-align: center; position: relative; width: 100%; height: 60px; ">
-			<p><strong>Diseñador:</strong> Marco Vinicio L&oacute;pez C&aacute;zarez &nbsp; &nbsp; &nbsp; <strong>Direcci&oacute;n de contacto:</strong> marco_vlc10@hotmail.com</p>
-		</footer>
-    </body>
-	
-</html> -->
